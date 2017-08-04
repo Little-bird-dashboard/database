@@ -1,6 +1,6 @@
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE stakeholder_type CASCADE; ALTER SEQUENCE stakeholder_type_id_seq restart with 9')
+  return knex.raw('TRUNCATE stakeholder_type CASCADE; ALTER SEQUENCE stakeholder_type_id_seq restart with 12')
     .then(function () {
       return knex('stakeholder_type').insert([
         {
@@ -9,7 +9,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 2,
-          type:'Guardian'
+          type:'Primary Guardian'
         },
         {
           id: 3,
@@ -34,6 +34,18 @@ exports.seed = function(knex, Promise) {
         {
           id: 8,
           type:'Platform Admin'
+        },
+        {
+          id: 9,
+          type:'Little Bird'
+        },
+        {
+          id: 10,
+          type:'Additional Guardian'
+        },
+        {
+          id: 11,
+          type:'Other Stakeholder'
         }
       ]);
     });

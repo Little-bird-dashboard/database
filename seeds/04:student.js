@@ -1,7 +1,7 @@
 
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE student CASCADE; ALTER SEQUENCE student_id_seq restart with 9')
+  return knex.raw('TRUNCATE student CASCADE; ALTER SEQUENCE student_id_seq restart with 13')
     .then(function () {
       return knex('student').insert([
         {
