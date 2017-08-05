@@ -1,13 +1,13 @@
 
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex.raw('TRUNCATE stakeholder_availability CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 9')
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
+      return knex('stakeholder_availability').insert([
+        {stakeholder_id: 1, meeting_start_time_id: 1},
+        {stakeholder_id: 1, meeting_start_time_id: 2},
+        {stakeholder_id: 1, meeting_start_time_id: 20},
+        {stakeholder_id: 1, meeting_start_time_id: 21},
+        {stakeholder_id: 1, meeting_start_time_id: 25}
       ]);
     });
 };

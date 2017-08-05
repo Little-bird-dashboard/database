@@ -1,13 +1,10 @@
-
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex.raw('TRUNCATE guardian_availability CASCADE; ALTER SEQUENCE communication_id_seq restart with 6')
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
+      return knex('guardian_availability').insert([
+        {stakeholder_id: 2, date: 'Monday', timeframe: 'morning'},
+        {stakeholder_id: 2, date: 'Thursday', timeframe: 'morning'},
+        {stakeholder_id: 2, date: 'Friday', timeframe: 'morning'}
       ]);
     });
 };
