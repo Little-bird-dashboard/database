@@ -10,7 +10,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Jaclyn',
           last_name:'Moore',
           email:'jaclyn.moore@rootselementary.com',
-          cell: '7205127878'
+          cell: '+17205127878'
         },
         {
           id: 2,
@@ -18,7 +18,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Lenora',
           last_name:'Gonzalez',
           email:'lgonzalez@gmail.com',
-          cell: '7206667777'
+          cell: '+18043473241'
         },
         {
           id: 3,
@@ -26,7 +26,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Jill',
           last_name:'Tew',
           email:'jill.tew@rootselementary.com',
-          cell: '7209876098'
+          cell: '+17209876098'
         },
         {
           id: 4,
@@ -34,7 +34,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Sarah',
           last_name:'Dunn',
           email:'sarah.dunn@rootselementary.com',
-          cell: '7203334657'
+          cell: '+17203334657'
         },
         {
           id: 5,
@@ -42,7 +42,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Holly',
           last_name:'Hunter',
           email:'holly.hunter@denverchildrens.com',
-          cell: '7203334657'
+          cell: '+17203334657'
         },
         {
           id: 6,
@@ -57,6 +57,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Little',
           last_name:'Bird',
           email:'littlebird@gmail.com',
+          cell: '+18042982615'
         }
       ]);
     });
