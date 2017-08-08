@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
       table.increments('id').primary();
       table.text('day').notNullable();
       table.text('start_time').notNullable();
+      table.text('timeframe').notNullable();
     })
 };
 
