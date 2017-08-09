@@ -42,6 +42,14 @@ exports.seed = function(knex, Promise) {
           description: 'therapist - visits 1 per month',
           is_required: false,
           importance: 3
+        },
+        {
+          id: 6,
+          student_id:1,
+          stakeholder_id:7,
+          description: 'Little Bird',
+          is_required: false,
+          importance: 1
         }
       ]);
     });
