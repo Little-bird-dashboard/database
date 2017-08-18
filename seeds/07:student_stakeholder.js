@@ -50,6 +50,14 @@ exports.seed = function(knex, Promise) {
           description: 'Little Bird',
           is_required: false,
           importance: 1
+        },
+        {
+          id: 7,
+          student_id:12,
+          stakeholder_id:8,
+          description: 'Mother',
+          is_required: false,
+          importance: 9
         }
       ]);
     });

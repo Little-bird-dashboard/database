@@ -58,6 +58,14 @@ exports.seed = function(knex, Promise) {
           last_name:'Bird',
           email:'littlebird@gmail.com',
           cell: '+18042982615'
+        },
+        {
+          id: 8,
+          stakeholder_type_id:2,
+          first_name:'Marlena',
+          last_name:'Baker',
+          email:'baker.marlena@gmail.com',
+          cell: '+13039198623'
         }
       ]);
     });
