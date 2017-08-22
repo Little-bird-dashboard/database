@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Gonzalez',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'http://www.lbusd.k12.ca.us/Asset/Slideshows/Dept/Students_ES/ES_Image_09.jpg'
+          profile_img:'../../../staic/jane.jpg'
         },
         {
           id: 2,
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Perkins',
           grade_type_id:6,
           IEP_deadline:'2017-12-01 05:00:00',
-          profile_img:'http://schools.billmorley.com/wp-content/uploads/2015/02/27_resize.jpg'
+          profile_img:'../../../staic/benjamin.jpg'
         },
         {
           id: 3,
@@ -29,7 +29,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Summers',
           grade_type_id:2,
           IEP_deadline:'2017-11-30 05:00:00',
-          profile_img:'http://schools.billmorley.com/wp-content/uploads/2015/02/34_resize.jpg'
+          profile_img:'../../../staic/lettie.jpg'
         },
         {
           id: 4,
@@ -38,7 +38,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Stone',
           grade_type_id:4,
           IEP_deadline:'2017-05-06 05:00:00',
-          profile_img:'http://s3.amazonaws.com/digitaltrends-uploads-prod/2015/11/kid-with-tablet-youtube-kids.jpg'
+          profile_img:'../../../staic/lou.jpg'
         },
         {
           id: 5,
@@ -47,7 +47,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Marshall',
           grade_type_id:2,
           IEP_deadline:'2017-09-22 05:00:00',
-          profile_img:'http://everydayfeminism.com/wp-content/uploads/2015/12/iStock_000007169361_Medium.jpg'
+          profile_img:'../../../staic/norman.jpg'
         },
         {
           id: 6,
@@ -56,7 +56,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Miyashita',
           grade_type_id:3,
           IEP_deadline:'2017-10-29 05:00:00',
-          profile_img:'https://www.japanindustrynews.com/wp-content/uploads/2015/11/japanese-elementary-school-kid.jpg'
+          profile_img:'../../../staic/nano.jpg'
         },
         {
           id: 7,
@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Fletcher',
           grade_type_id:4,
           IEP_deadline:'2017-04-12 05:00:00',
-          profile_img:'http://basilica.ro/wp-content/uploads/2016/10/02-7.jpg'
+          profile_img:'../../../staic/esther.jpg'
         },
         {
           id: 8,
@@ -74,16 +74,16 @@ exports.seed = function(knex, Promise) {
           last_name:'Gray',
           grade_type_id:6,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/adhd_study_habits_slideshow/getty_rf_photo_of_boy_studying.jpg'
+          profile_img:'../../../staic/erik.jpg'
         },
         {
           id: 9,
           student_id:'09067yuj',
-          first_name:'Liu',
+          first_name:'Luca',
           last_name:'Carpenter',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'https://d3rmmzlisdjvlb.cloudfront.net/wp-content/uploads/2013/04/shutterstock_71786563.jpg'
+          profile_img:'../../../staic/luca.jpg'
         },
         {
           id: 10,
@@ -92,7 +92,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Coleman',
           grade_type_id:6,
           IEP_deadline:'2017-10-03 05:00:00',
-          profile_img:'https://interactive-math-science-notebooks.wikispaces.com/file/view/BoyWriting.JPG/199143588/271x406/BoyWriting.JPG'
+          profile_img:'../../../staic/adam.jpg'
         },
         {
           id: 11,
@@ -101,16 +101,16 @@ exports.seed = function(knex, Promise) {
           last_name:'Hayes',
           grade_type_id:1,
           IEP_deadline:'2017-02-06 05:00:00',
-          profile_img:'http://blackchristiannews.com/wp-content/uploads/2016/08/back-to-school-lessons600-525x350.jpg'
+          profile_img:'../../../staic/may.jpg'
         },
         {
           id: 12,
           student_id:'0918lkdk',
-          first_name:'Maria',
+          first_name:'Mark',
           last_name:'Coleman',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'https://ak2.picdn.net/shutterstock/videos/22690234/thumb/1.jpg'
+          profile_img:'../../../staic/mark.jpg'
         }
       ]);
     });
