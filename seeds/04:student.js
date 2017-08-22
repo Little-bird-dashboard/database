@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Gonzalez',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'../../staic/jane.jpg'
+          profile_img:'../../../staic/jane.jpg'
         },
         {
           id: 2,
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Perkins',
           grade_type_id:6,
           IEP_deadline:'2017-12-01 05:00:00',
-          profile_img:'../../staic/benjamin.jpg'
+          profile_img:'../../../staic/benjamin.jpg'
         },
         {
           id: 3,
@@ -29,7 +29,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Summers',
           grade_type_id:2,
           IEP_deadline:'2017-11-30 05:00:00',
-          profile_img:'../../staic/lettie.jpg'
+          profile_img:'../../../staic/lettie.jpg'
         },
         {
           id: 4,
@@ -38,7 +38,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Stone',
           grade_type_id:4,
           IEP_deadline:'2017-05-06 05:00:00',
-          profile_img:'../../staic/lou.jpg'
+          profile_img:'../../../staic/lou.jpg'
         },
         {
           id: 5,
@@ -47,7 +47,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Marshall',
           grade_type_id:2,
           IEP_deadline:'2017-09-22 05:00:00',
-          profile_img:'../../staic/norman.jpg'
+          profile_img:'../../../staic/norman.jpg'
         },
         {
           id: 6,
@@ -56,7 +56,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Miyashita',
           grade_type_id:3,
           IEP_deadline:'2017-10-29 05:00:00',
-          profile_img:'../../staic/nano.jpg'
+          profile_img:'../../../staic/nano.jpg'
         },
         {
           id: 7,
@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Fletcher',
           grade_type_id:4,
           IEP_deadline:'2017-04-12 05:00:00',
-          profile_img:'../../staic/esther.jpg'
+          profile_img:'../../../staic/esther.jpg'
         },
         {
           id: 8,
@@ -74,7 +74,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Gray',
           grade_type_id:6,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'../../staic/erik.jpg'
+          profile_img:'../../../staic/erik.jpg'
         },
         {
           id: 9,
@@ -83,7 +83,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Carpenter',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'../../staic/luca.jpg'
+          profile_img:'../../../staic/luca.jpg'
         },
         {
           id: 10,
@@ -92,7 +92,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Coleman',
           grade_type_id:6,
           IEP_deadline:'2017-10-03 05:00:00',
-          profile_img:'../../staic/adam.jpg'
+          profile_img:'../../../staic/adam.jpg'
         },
         {
           id: 11,
@@ -101,7 +101,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Hayes',
           grade_type_id:1,
           IEP_deadline:'2017-02-06 05:00:00',
-          profile_img:'../../staic/may.jpg'
+          profile_img:'../../../staic/may.jpg'
         },
         {
           id: 12,
@@ -110,7 +110,7 @@ exports.seed = function(knex, Promise) {
           last_name:'Coleman',
           grade_type_id:3,
           IEP_deadline:'2017-10-01 05:00:00',
-          profile_img:'../../staic/mark.jpg'
+          profile_img:'../../../staic/mark.jpg'
         }
       ]);
     });
