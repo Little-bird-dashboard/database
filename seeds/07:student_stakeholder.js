@@ -375,6 +375,186 @@ exports.seed = function(knex, Promise) {
           stakeholder_id:16,
           is_required: false,
           importance: 9
+        },
+        {
+          student_id:13,
+          stakeholder_id:1,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:14,
+          stakeholder_id:1,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:15,
+          stakeholder_id:1,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:16,
+          stakeholder_id:1,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:17,
+          stakeholder_id:1,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:13,
+          stakeholder_id:9,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:14,
+          stakeholder_id:9,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:15,
+          stakeholder_id:9,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:16,
+          stakeholder_id:9,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:17,
+          stakeholder_id:9,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:13,
+          stakeholder_id:25,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:14,
+          stakeholder_id:26,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:15,
+          stakeholder_id:27,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:16,
+          stakeholder_id:28,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:17,
+          stakeholder_id:29,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:13,
+          stakeholder_id:25,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:14,
+          stakeholder_id:26,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:15,
+          stakeholder_id:27,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:16,
+          stakeholder_id:28,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:17,
+          stakeholder_id:29,
+          is_required: false,
+          importance: 9
+        },
+        {
+          student_id:13,
+          stakeholder_id:4,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:14,
+          stakeholder_id:10,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:15,
+          stakeholder_id:9,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:16,
+          stakeholder_id:11,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:17,
+          stakeholder_id:14,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:13,
+          stakeholder_id:3,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:14,
+          stakeholder_id:3,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:15,
+          stakeholder_id:3,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:16,
+          stakeholder_id:3,
+          is_required: false,
+          importance: 1
+        },
+        {
+          student_id:17,
+          stakeholder_id:3,
+          is_required: false,
+          importance: 1
         }
       ]);
     });

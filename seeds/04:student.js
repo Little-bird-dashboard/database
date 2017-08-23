@@ -1,7 +1,7 @@
 
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE student CASCADE; ALTER SEQUENCE student_id_seq restart with 13')
+  return knex.raw('TRUNCATE student CASCADE; ALTER SEQUENCE student_id_seq restart with 18')
     .then(function () {
       return knex('student').insert([
         {
@@ -37,7 +37,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Lou',
           last_name:'Stone',
           grade_type_id:4,
-          IEP_deadline:'2017-05-06 05:00:00',
+          IEP_deadline:'2018-05-06 05:00:00',
           profile_img:'./static/lou.jpg'
         },
         {
@@ -64,7 +64,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Esther',
           last_name:'Fletcher',
           grade_type_id:4,
-          IEP_deadline:'2017-04-12 05:00:00',
+          IEP_deadline:'2018-04-12 05:00:00',
           profile_img:'./static/esther.jpg'
         },
         {
@@ -100,7 +100,7 @@ exports.seed = function(knex, Promise) {
           first_name:'May',
           last_name:'Hayes',
           grade_type_id:1,
-          IEP_deadline:'2017-02-06 05:00:00',
+          IEP_deadline:'2018-02-06 05:00:00',
           profile_img:'./static/may.jpg'
         },
         {
@@ -109,8 +109,53 @@ exports.seed = function(knex, Promise) {
           first_name:'Mark',
           last_name:'Coleman',
           grade_type_id:3,
-          IEP_deadline:'2017-04-03 05:00:00',
+          IEP_deadline:'2018-04-03 05:00:00',
           profile_img:'./static/mark.jpg'
+        },
+        {
+          id: 13,
+          student_id:'0918yuhj',
+          first_name:'Demo',
+          last_name:'Student 1',
+          grade_type_id:3,
+          IEP_deadline:'2018-05-03 05:00:00',
+          profile_img:'./static/user_icon.png'
+        },
+        {
+          id: 14,
+          student_id:'0786yuhj',
+          first_name:'Demo',
+          last_name:'Student 2',
+          grade_type_id:2,
+          IEP_deadline:'2018-01-05 05:00:00',
+          profile_img:'./static/user_icon.png'
+        },
+        {
+          id: 15,
+          student_id:'0917hohj',
+          first_name:'Demo',
+          last_name:'Student 3',
+          grade_type_id:6,
+          IEP_deadline:'2017-09-03 05:00:00',
+          profile_img:'./static/user_icon.png'
+        },
+        {
+          id: 16,
+          student_id:'0076yuxj',
+          first_name:'Demo',
+          last_name:'Student 4',
+          grade_type_id:4,
+          IEP_deadline:'2017-10-11 05:00:00',
+          profile_img:'./static/user_icon.png'
+        },
+        {
+          id: 17,
+          student_id:'0098duxj',
+          first_name:'Demo',
+          last_name:'Student 5',
+          grade_type_id:1,
+          IEP_deadline:'2017-12-07 05:00:00',
+          profile_img:'./static/user_icon.png'
         }
       ]);
     });
