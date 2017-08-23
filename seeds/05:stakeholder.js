@@ -1,7 +1,7 @@
 
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE stakeholder CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 9')
+  return knex.raw('TRUNCATE stakeholder CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 25')
     .then(function () {
       return knex('stakeholder').insert([
         {
@@ -63,10 +63,138 @@ exports.seed = function(knex, Promise) {
           id: 8,
           stakeholder_type_id:2,
           first_name:'Marlena',
-          last_name:'Baker',
-          email:'baker.marlena@gmail.com',
+          last_name:'Coleman',
+          email:'mcoleman@gmail.com',
           cell: '+13039198623'
-        }
+        },
+        {
+          id: 9,
+          stakeholder_type_id:4,
+          first_name:'Tom',
+          last_name:'Fulham',
+          email:'Tom.Fulham@rootselementary.com',
+          cell: '+17203334666'
+        },
+        {
+          id: 10,
+          stakeholder_type_id:4,
+          first_name:'Catherine',
+          last_name:'Lopez',
+          email:'Catherine.Lopez@rootselementary.com',
+          cell: '+17203334657'
+        },
+        {
+          id: 11,
+          stakeholder_type_id:4,
+          first_name:'Christina',
+          last_name:'Patel',
+          email:'Christina.Patel@rootselementary.com',
+          cell: '+17203334611'
+        },
+        {
+          id: 12,
+          stakeholder_type_id:4,
+          first_name:'Carter',
+          last_name:'Mason',
+          email:'Carter.Mason@rootselementary.com',
+          cell: '+17203334639'
+        },
+        {
+          id: 13,
+          stakeholder_type_id:4,
+          first_name:'Haley',
+          last_name:'White',
+          email:'Haley.White@rootselementary.com',
+          cell: '+17203334651'
+        },
+        {
+          id: 14,
+          stakeholder_type_id:4,
+          first_name:'Maria',
+          last_name:'Ochoa',
+          email:'Maria.Ochoa@rootselementary.com',
+          cell: '+17203334688'
+        },
+        {
+          id: 15,
+          stakeholder_type_id:2,
+          first_name:'Mike',
+          last_name:'Gray',
+          email:'mgray@gmail.com',
+          cell: '+13039887015'
+        },
+        {
+          id: 16,
+          stakeholder_type_id:2,
+          first_name:'Jada',
+          last_name:'Hayes',
+          email:'mhayes@gmail.com',
+          cell: '+13039887016'
+        },
+        {
+          id: 17,
+          stakeholder_type_id:2,
+          first_name:'Jordan',
+          last_name:'Stone',
+          email:'jstone@gmail.com',
+          cell: '+13039887017'
+        },
+        {
+          id: 18,
+          stakeholder_type_id:2,
+          first_name:'Hana',
+          last_name:'Miyashita',
+          email:'hmiyashita@gmail.com',
+          cell: '+13039887018'
+        },
+        {
+          id: 19,
+          stakeholder_type_id:2,
+          first_name:'CJ',
+          last_name:'Perkins',
+          email:'cperkins@gmail.com',
+          cell: '+13039887019'
+        },
+        {
+          id: 20,
+          stakeholder_type_id:2,
+          first_name:'Imani',
+          last_name:'Summers',
+          email:'isummers@gmail.com',
+          cell: '+13039887020'
+        },
+        {
+          id: 21,
+          stakeholder_type_id:2,
+          first_name:'Kim',
+          last_name:'Marshall',
+          email:'kmarshall@gmail.com',
+          cell: '+13039887021'
+        },
+        {
+          id: 22,
+          stakeholder_type_id:2,
+          first_name:'Kiara',
+          last_name:'Carpenter',
+          email:'kcarpenter@gmail.com',
+          cell: '+13039887022'
+        },
+        {
+          id: 23,
+          stakeholder_type_id:2,
+          first_name:'Tom',
+          last_name:'Fletcher',
+          email:'tfletcher@gmail.com',
+          cell: '+13039887023'
+        },
+        {
+          id: 24,
+          stakeholder_type_id:2,
+          first_name:'Mckela',
+          last_name:'Coleman',
+          email:'mckcoleman@gmail.com',
+          cell: '+13039887024'
+        },
       ]);
     });
 };
