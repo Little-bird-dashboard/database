@@ -73,7 +73,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Erik',
           last_name:'Gray',
           grade_type_id:6,
-          IEP_deadline:'2017-10-01 05:00:00',
+          IEP_deadline:'2017-10-11 05:00:00',
           profile_img:'./static/erik.jpg'
         },
         {
@@ -82,7 +82,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Luca',
           last_name:'Carpenter',
           grade_type_id:3,
-          IEP_deadline:'2017-10-01 05:00:00',
+          IEP_deadline:'2017-09-01 05:00:00',
           profile_img:'./static/luca.jpg'
         },
         {
@@ -91,7 +91,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Adam',
           last_name:'Coleman',
           grade_type_id:6,
-          IEP_deadline:'2017-10-03 05:00:00',
+          IEP_deadline:'2017-12-14 05:00:00',
           profile_img:'./static/adam.jpg'
         },
         {
@@ -109,7 +109,7 @@ exports.seed = function(knex, Promise) {
           first_name:'Mark',
           last_name:'Coleman',
           grade_type_id:3,
-          IEP_deadline:'2017-10-01 05:00:00',
+          IEP_deadline:'2017-04-03 05:00:00',
           profile_img:'./static/mark.jpg'
         }
       ]);

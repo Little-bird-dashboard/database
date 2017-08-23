@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
     table.foreign('stakeholder_type_id').references('stakeholder_type.id');
     table.string('first_name').notNullable();
     table.string('last_name').notNullable();
-    table.string('email').unique();
+    table.string('email');
     table.string('cell');
   });
 };

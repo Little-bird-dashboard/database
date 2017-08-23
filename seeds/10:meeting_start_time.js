@@ -1,6 +1,6 @@
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE meeting_start_time CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 9')
+  return knex.raw('TRUNCATE meeting_start_time CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 1')
     .then(function () {
       return knex('meeting_start_time').insert([
         {day: 'Monday', start_time: '9 am', timeframe: 'morning'},
