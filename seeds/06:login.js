@@ -16,6 +16,11 @@ exports.seed = function(knex, Promise) {
           id: 2,
           stakeholder_id:6,
           password: bcrypt.hashSync('password123', salt) ,
+        },
+        {
+          id:3,
+          stakeholder_id: 30,
+          password: bcrypt.hashSync('password123', salt) ,
         }
       ]);
     });
