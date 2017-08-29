@@ -1,6 +1,6 @@
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE grade_type CASCADE; ALTER SEQUENCE grade_type_id_seq restart with 14')
+  return knex.raw('TRUNCATE grade_type CASCADE; ALTER SEQUENCE grade_type_id_seq restart with 21')
     .then(function () {
       return knex('grade_type').insert([
         {
@@ -67,6 +67,11 @@ exports.seed = function(knex, Promise) {
           id: 13,
           name:'12th',
           order:12
+        },
+        {
+          id: 20,
+          name:'filter',
+          order:20
         }
       ]);
     });

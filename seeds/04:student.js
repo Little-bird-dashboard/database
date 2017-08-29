@@ -117,7 +117,8 @@ exports.seed = function(knex, Promise) {
           student_id:'0918yuhj',
           first_name:'Demo',
           last_name:'Student 1',
-          grade_type_id:3,
+          //grade_type_id:3,
+          grade_type_id:20,
           IEP_deadline:'2018-05-03 05:00:00',
           profile_img:'./static/user_icon.png'
         },
@@ -126,7 +127,8 @@ exports.seed = function(knex, Promise) {
           student_id:'0786yuhj',
           first_name:'Demo',
           last_name:'Student 2',
-          grade_type_id:2,
+          //grade_type_id:2,
+          grade_type_id:20,
           IEP_deadline:'2018-01-05 05:00:00',
           profile_img:'./static/user_icon.png'
         },
@@ -135,7 +137,8 @@ exports.seed = function(knex, Promise) {
           student_id:'0917hohj',
           first_name:'Demo',
           last_name:'Student 3',
-          grade_type_id:6,
+          //grade_type_id:6,
+          grade_type_id:20,
           IEP_deadline:'2017-09-03 05:00:00',
           profile_img:'./static/user_icon.png'
         },
@@ -144,7 +147,8 @@ exports.seed = function(knex, Promise) {
           student_id:'0076yuxj',
           first_name:'Demo',
           last_name:'Student 4',
-          grade_type_id:4,
+          //grade_type_id:4,
+          grade_type_id:20,
           IEP_deadline:'2017-10-11 05:00:00',
           profile_img:'./static/user_icon.png'
         },
@@ -153,7 +157,8 @@ exports.seed = function(knex, Promise) {
           student_id:'0098duxj',
           first_name:'Demo',
           last_name:'Student 5',
-          grade_type_id:1,
+          //grade_type_id:1,
+          grade_type_id:20,
           IEP_deadline:'2017-12-07 05:00:00',
           profile_img:'./static/user_icon.png'
         }
