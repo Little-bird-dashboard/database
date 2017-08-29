@@ -1,7 +1,7 @@
 
 
 exports.seed = function(knex, Promise) {
-  return knex.raw('TRUNCATE stakeholder CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 31')
+  return knex.raw('TRUNCATE stakeholder CASCADE; ALTER SEQUENCE stakeholder_id_seq restart with 32')
     .then(function () {
       return knex('stakeholder').insert([
         {
@@ -242,6 +242,14 @@ exports.seed = function(knex, Promise) {
           last_name:'User',
           email:'demo.user@rootselementary.com',
           cell: '+17205127877'
+        },
+        {
+          id: 31,
+          stakeholder_type_id:1,
+          first_name:'NSVF',
+          last_name:'Demo',
+          email:'nsvf@demo.com',
+          cell: '+17205127811'
         }
       ]);
     });
