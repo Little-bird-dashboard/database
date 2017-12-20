@@ -555,6 +555,24 @@ exports.seed = function(knex, Promise) {
           stakeholder_id:3,
           is_required: false,
           importance: 1
+        },
+        {
+          student_id:18,
+          stakeholder_id:32,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:19,
+          stakeholder_id:32,
+          is_required: true,
+          importance: 10
+        },
+        {
+          student_id:20,
+          stakeholder_id:32,
+          is_required: true,
+          importance: 10
         }
       ]);
     });
